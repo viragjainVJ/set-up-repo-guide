@@ -23,12 +23,18 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 npm install --save redux-first-routing
 ```
-Achieve client-side routing the Redux way:
+Redux-first routing is a variation on pushState routing that makes Redux the star of the routing model.
 
-- Read location data from the store.
-- Update the location by dispatching navigation actions.
+### A Redux-first routing solution satisfies the following criteria:
+
+- The location is held in the Redux store.
+- The location is changed by dispatching Redux actions.
+- The application reads location data solely from the store.
+- The store and browser history are kept in sync behind the scenes.
 - Let middleware handle the side-effect of history navigation.
 
 ![Usage with Universal Router](https://camo.githubusercontent.com/381e787f15ad1f830a41d3e261157ae07d9f3999/687474703a2f2f692e696d6775722e636f6d2f557a51745934542e6a7067)
 
 [Medium FreeCodeCamp](https://medium.freecodecamp.org/an-introduction-to-the-redux-first-routing-model-98926ebf53cb)
+
+
