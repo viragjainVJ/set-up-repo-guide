@@ -3,6 +3,14 @@
 ### [Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 Create sophisticated formatting for your prose and code on GitHub with simple syntax.
 
+## Adding an existing project to GitHub using the command line
+- git init
+- git add .
+- git commit -m "First commit"
+- git remote add origin [your repo url]()
+- git remote -v
+- git push origin master
+
 ## Issues
 - Faced below issue while pushing to remote repo.
 ```
