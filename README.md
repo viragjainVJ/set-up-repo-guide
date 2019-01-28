@@ -45,4 +45,13 @@ Redux-first routing is a variation on pushState routing that makes Redux the sta
 
 [Medium FreeCodeCamp](https://medium.freecodecamp.org/an-introduction-to-the-redux-first-routing-model-98926ebf53cb)
 
+### Rename Git Repo
+- git branch -m old-name new-name
+- git push origin :old-name new-name
+- git push origin -u new-name
 
+OR
+
+- git branch -m old_branch new_branch         # Rename branch locally    
+- git push origin :old_branch                 # Delete the old branch    
+- git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
