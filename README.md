@@ -65,3 +65,20 @@ OR
 - git push origin :<branch_name> (Delete from Remote) 
  or
 - git push <remote_name> --delete <branch_name> (Delete from Remote) 
+
+### Stash Data Retrieval
+Stash the changes in a dirty working directory away
+```
+git stash list [<options>]
+git stash show [<options>] [<stash>]
+git stash drop [-q|--quiet] [<stash>]
+git stash ( pop | apply ) [--index] [-q|--quiet] [<stash>]
+git stash branch <branchname> [<stash>]
+git stash [push [-p|--patch] [-k|--[no-]keep-index] [-q|--quiet]
+	     [-u|--include-untracked] [-a|--all] [-m|--message <message>]
+	     [--] [<pathspec>…​]]
+git stash clear
+git stash create [<message>]
+git stash store [-m|--message <message>] [-q|--quiet] <commit>
+```
+Refer [Stash Command Description](https://git-scm.com/docs/git-stash)
