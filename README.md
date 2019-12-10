@@ -82,3 +82,9 @@ git stash create [<message>]
 git stash store [-m|--message <message>] [-q|--quiet] <commit>
 ```
 Refer [Stash Command Description](https://git-scm.com/docs/git-stash)
+
+### Remove Repository from Local to clone again
+```
+rm -rf repositoryA
+```
+
