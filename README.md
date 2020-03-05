@@ -87,4 +87,9 @@ Refer [Stash Command Description](https://git-scm.com/docs/git-stash)
 ```
 rm -rf repositoryA
 ```
-
+### Merge Commits into one commit Message
+- git rebase -i HEAD~N
+- change the pick to squash and save the rebase
+- it will ask for the commit message, save the message and proceed.
+- if chnages are already pushed to remote branch and rebasing on local branch then --force the push
+- git push origin <branch_name> --force
