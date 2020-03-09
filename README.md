@@ -93,3 +93,6 @@ rm -rf repositoryA
 - it will ask for the commit message, save the message and proceed.
 - if chnages are already pushed to remote branch and rebasing on local branch then --force the push
 - git push origin <branch_name> --force
+
+### Discard unwanted chnages from VS Code
+- git clean  -d  -f .
