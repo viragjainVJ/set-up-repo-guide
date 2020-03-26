@@ -96,3 +96,6 @@ rm -rf repositoryA
 
 ### Discard unwanted chnages from VS Code
 - git clean  -d  -f .
+
+### Cherry-Pick Commit
+- git cherry-pick <SHA/commit-id> -m 1
