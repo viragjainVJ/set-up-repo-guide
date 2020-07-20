@@ -99,3 +99,6 @@ rm -rf repositoryA
 
 ### Cherry-Pick Commit
 - git cherry-pick <SHA/commit-id> -m 1
+
+### Revert Specific Commit or merge request
+- git revert -m 1 <commit-id>
