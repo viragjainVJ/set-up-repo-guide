@@ -102,3 +102,6 @@ rm -rf repositoryA
 
 ### Revert Specific Commit or merge request
 - git revert -m 1 <commit-id>
+
+### facing issue of error: cannot lock existing info/refs fatal
+- git remote prune origin
